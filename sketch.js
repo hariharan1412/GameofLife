@@ -1,23 +1,18 @@
-// let width = 600
-// let height = 400
-
 
 let width = 1700
-let height = 880
+let height = 400
 
-let s = 10
+let s = 5
 
 let w = width /s
 let h = height / s
 
 let life = []
 
+
 function setup() {
     let c = createCanvas(width, height);
-    // console.log( w, h );
-    frameRate(15);
-
-    saveCanvas(c, 'myCanvas', 'jpg');
+    frameRate(10);
 
     for(let i = 0 ; i < w ; i++){
         let f = []
@@ -58,10 +53,14 @@ function draw() {
 
         }
     }   
+
 }
 
 function keyPressed() {
-    if(key == " "){
-        saveGif("GameofLife.gif" , 5 );
+
+    if (key === 's') {
+
+        saveGif('GameofLife2.gif', 10);
+    //   saveGif('GameofLife.gif', 5);
     }
-}
+  }
