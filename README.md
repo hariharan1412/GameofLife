@@ -25,4 +25,12 @@ Simplifed version of this Rules are
 1. Any dead cell with three live neighbours becomes a live cell.
 1. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
-  
+## RUN 
+
+    run index.html file in localhost
+    
+## Save 
+
+    press 's' to save the canvas as .gif file for 10 sec.
+    
+Feel free to change the variable value to explore.
