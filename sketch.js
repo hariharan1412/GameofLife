@@ -1,8 +1,8 @@
 
-let width = 1700
-let height = 400
+let width = 1000
+let height = 800
 
-let s = 5
+let s = 10
 
 let w = width /s
 let h = height / s
@@ -18,7 +18,7 @@ function setup() {
         let f = []
         for(let j = 0 ; j < h ; j++){
             n = random(0 , 100)
-            if(n < 10){
+            if(n < 8){
                 f.push(new cell(i , j , s , w , h ,  true));            
             }
             else{
